@@ -1,0 +1,55 @@
+  /* Styles for the selected option */
+  .options button.bgGreen {
+    background-color: #28a745;
+    color: #fff;
+  }
+
+  /* Styles for the incorrect option */
+  .options button.bgRed {
+    background-color: #dc3545;
+    color: #fff;
+  }
+
+  .exam-container{
+    width: 500px;
+    margin:0 auto;
+    text-align: center;
+  }
+
+  h3{
+    font-size: 23px;
+    margin-bottom: 20px;
+
+  }
+
+  .question{
+    margin-bottom: 40px;
+  }
+
+  .options{
+    width: 150px;
+    height:50px;
+    background-color: orange;
+    border: 1px solid red;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 50px;
+  }
+
+ 
+  .option.selected{
+    background-color: #28a745;
+    color:yellow;
+
+  }
+
+  button{
+    padding: 10px 20px;
+    border:1px solid;
+    cursor: pointer;
+  }
+  .marks{
+    font-size: 18px;
+    margin-top: 20px;
+  }
